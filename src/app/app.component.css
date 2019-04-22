@@ -1,0 +1,34 @@
+.navbar-aarudra
+{
+    background-color: #780206 !important;
+    
+}
+.navbar-link-aarudra{
+    color: whitesmoke !important;
+    transition: 0.3s ease;    
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+.navbar-link-aarudra:hover{
+    color: #EEE5E5;
+    border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+.main-navbar-content{
+justify-content: flex-end;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+
+  .carousel-item{
+    height: 500px;
+} 
