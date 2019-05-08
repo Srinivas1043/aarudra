@@ -1,0 +1,63 @@
+.motuloil{
+    padding-top:100px;
+    color: whitesmoke;
+}
+
+.motuloil h3{
+    color: #fdcb6e;
+    align-content: center;
+    padding-bottom: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.card{
+    background-color: #fdcb6e;
+    color: #030303;
+   
+    }
+   
+
+.row{
+    
+    padding-bottom:50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+footer{
+    color: white;
+  }
+  footer a{
+    color:whitesmoke;
+  }
+  footer a:hover{
+    color: white;
+  }
+  
+  .footer-bottom{
+    background: #fdcb6e;
+    padding: 2em;
+  }
+  .footer-top{
+    background: #fdcb6e;  
+  }
+  .footer-middle{
+     background: #030301;
+    padding-top: 2em;
+    color: white;
+  }
+  
+
+
+  .text-small {
+    font-size: 0.75rem;
+  }
+
+
+
+
+
+  
