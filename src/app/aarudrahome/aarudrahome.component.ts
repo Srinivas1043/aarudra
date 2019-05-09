@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AarudrahomeComponent implements OnInit {
 
+  id: number;
+  name: string;
+  email: string;
+  phone?: string;
+  message: string;
+  
   constructor() { }
 
   ngOnInit() {

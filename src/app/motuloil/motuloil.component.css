@@ -13,15 +13,15 @@
 .card{
     background-color: #fdcb6e;
     color: #030303;
-   
+    
     }
-   
+  
 
 .row{
     
     padding-bottom:50px;
-
-    padding-left: 50px;
+    padding-right :50px;
+      padding-left: 50px;
 }
 
 
@@ -56,8 +56,20 @@ footer{
     font-size: 0.75rem;
   }
 
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+    } 
 
 
-
-
+    .footer-bottom p{
+      padding-left:350px;
+    }
+    
+    @media(max-width: 990px){
+      .footer-bottom p{
+        padding:0px;
+      }
+      } 
   

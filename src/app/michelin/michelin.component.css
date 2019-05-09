@@ -57,7 +57,19 @@ footer{
   }
 
 
+  @media(max-width: 990px){
+    .card{
+      margin-bottom: 20px;
+    }
+    } 
 
 
-
-  
+    .footer-bottom p{
+      padding-left:350px;
+    }
+    
+    @media(max-width: 990px){
+      .footer-bottom p{
+        padding:0px;
+      }
+      } 
