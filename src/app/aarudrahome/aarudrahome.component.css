@@ -633,3 +633,16 @@ margin:0 5px;
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
  color:#025a8e;
 }
+
+
+@media(max-width: 990px){
+  .parabout{
+    max-width: 100%;
+  }
+  } 
+
+  .parabout{
+    max-width: 50%;
+    margin-left: 25%;
+    text-align: justify;
+  }

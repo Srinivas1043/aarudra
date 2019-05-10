@@ -16,6 +16,9 @@ export class AarudrahomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(() => {
+      $('#aarudraHeader').show();
+  });
   }
 
 }
