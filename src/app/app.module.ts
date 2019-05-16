@@ -7,8 +7,8 @@ import { MotuloilComponent } from './motuloil/motuloil.component';
 import { AarudrahomeComponent } from './aarudrahome/aarudrahome.component';
 import { NgkComponent } from './ngk/ngk.component';
 import { MichelinComponent } from './michelin/michelin.component';
-import { OpeningComponent } from './opening/opening.component';
 import * as $ from 'jquery';
+import { Motuloilpage2Component } from './motuloilpage2/motuloilpage2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import * as $ from 'jquery';
     AarudrahomeComponent,
     NgkComponent,
     MichelinComponent,
-    OpeningComponent
+  
+    Motuloilpage2Component
   ],
   imports: [
     BrowserModule,

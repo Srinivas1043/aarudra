@@ -4,13 +4,13 @@ import {MotuloilComponent} from './motuloil/motuloil.component';
 import {AarudrahomeComponent} from './aarudrahome/aarudrahome.component';
 import {MichelinComponent} from './michelin/michelin.component';
 import {NgkComponent} from './ngk/ngk.component';
-import {OpeningComponent} from './opening/opening.component';
+import {Motuloilpage2Component} from './motuloilpage2/motuloilpage2.component';
 const routes: Routes = [
   {path: 'motulOil', component: MotuloilComponent},
+  {path: 'motulOilExtension', component: Motuloilpage2Component},
   {path: 'michelin', component: MichelinComponent},
   {path: 'ngk', component: NgkComponent},
-  {path: 'home', component: AarudrahomeComponent },
-  {path: '', component: OpeningComponent}
+  {path: '', component: AarudrahomeComponent },
 ];
 
 @NgModule({
